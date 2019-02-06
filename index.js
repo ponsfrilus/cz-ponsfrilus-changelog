@@ -1,10 +1,10 @@
 "format cjs";
 
 var engine = require('./engine');
-var conventionalCommitTypes = require('conventional-commit-types');
+var ponsfrilusCommitTypes = require('ponsfrilus-commit-types');
 
 module.exports = engine({
-  types: conventionalCommitTypes.types,
+  types: ponsfrilusCommitTypes.types,
   defaultType: process.env.CZ_TYPE,
   defaultScope: process.env.CZ_SCOPE,
   defaultSubject: process.env.CZ_SUBJECT,
