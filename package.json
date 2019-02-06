@@ -1,6 +1,6 @@
 {
   "name": "cz-ponsfrilus-changelog",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Commitizen adapter following the ponsfrilus-changelog format.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/ponsfrilus/cz-ponsfrilus-changelog.git"
   },
-  "author": "Jim Cummins <jimthedev@gmail.com>",
+  "author": "Nicolas Borboën <ponsfrilus@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "ponsfrilus-commit-types": "*",
