@@ -1,6 +1,6 @@
 {
   "name": "cz-ponsfrilus-changelog",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "Commitizen adapter following the ponsfrilus-changelog format.",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "dependencies": {
     "lodash.map": "^4.6.0",
     "longest": "^2.0.1",
-    "ponsfrilus-commit-types": "0.0.8",
+    "ponsfrilus-commit-types": "^0.0.8",
     "right-pad": "^1.0.1",
     "word-wrap": "^1.2.3"
   },
