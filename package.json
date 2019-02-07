@@ -1,6 +1,6 @@
 {
   "name": "cz-ponsfrilus-changelog",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Commitizen adapter following the ponsfrilus-changelog format.",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,9 @@
   "author": "Nicolas Borboën <ponsfrilus@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ponsfrilus-commit-types": "*",
     "lodash.map": "^4.5.1",
     "longest": "^1.0.1",
+    "ponsfrilus-commit-types": "0.0.5",
     "right-pad": "^1.0.1",
     "word-wrap": "^1.0.3"
   },
