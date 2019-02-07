@@ -17,11 +17,12 @@ var filter = function(array) {
 module.exports = function (options) {
 
   var types = options.types;
+  var sep = options.settings.separator || ':';
 
   var length = longest(Object.keys(types)).length + 1;
   var choices = map(types, function (type, key) {
     return {
-      name: rightPad(key + ':', length) + ' ' + type.description,
+      name: rightPad(key + sep, length) + ' ' + type.description,
       value: key
     };
   });
