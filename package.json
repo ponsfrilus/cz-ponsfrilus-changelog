@@ -1,6 +1,6 @@
 {
   "name": "cz-ponsfrilus-changelog",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "description": "Commitizen adapter following the ponsfrilus-changelog format.",
   "main": "index.js",
   "scripts": {
