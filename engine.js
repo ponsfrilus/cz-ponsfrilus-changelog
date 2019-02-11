@@ -17,7 +17,14 @@ var filter = function(array) {
 module.exports = function (options) {
 
   var types = options.types;
-  var sep = options.settings.separator || ':';
+  
+  // Define the separator, e.g. [MSG]→ 
+  var sep = options.settings.separator || ':'; // backward compatibility
+  // but this should be rewritten by process.env.CZ_SEPARATOR
+  // which can be tested with `$ export CZ_SEPARATOR=→; git cz`
+  if (options.defaultSeparator) {
+    sep = options.defaultSeparator;
+  }
 
   var length = longest(Object.keys(types)).length + 1;
   var choices = map(types, function (type, key) {
